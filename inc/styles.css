@@ -1,15 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     color: #00b9e8;
-    
 }
+
 
 body {
     background-color:#F5F5FF;
@@ -18,10 +30,13 @@ body {
 }
 
 nav {
+    position: fixed;
+    top: 0;
     width: 90dvw;
-    margin: .5em auto;
+    margin: 0 auto .5em auto;
     height: 3em;
     border-bottom: 2px white solid;
+    background-color: #F5F5FF;
 
     ul {
         display: flex;
@@ -56,7 +71,7 @@ nav {
 .logo {
 width: 70dvw;
 height: auto;
-margin: 0 auto;
+margin: 1.2em auto;
 gap:.5em;
 display: flex;
 flex-direction: column;
@@ -105,6 +120,48 @@ main {
         width: 50%;
         border-bottom: 2px #CFCCFF solid;
         margin: .5em;
+    }
+    
+    .mySlides {
+        display: none;
+    }
+
+    img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+    .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    }
+
+    /* Caption text */
+    .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    }
+
+
+    .active {
+    background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
     }
 }
 
