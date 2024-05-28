@@ -253,6 +253,45 @@ gap: 1em;
     background-color: #9fdffa;
 }
 
+.reviews-area {
+    margin: 1em auto;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    background: #fff;
+    padding: 25px 50px 35px;
+    border-radius: 25px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+.review {
+    border: 2px #3CC2FB solid;
+    border-radius: .5em;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.review .line {
+    width: 80%;
+    border-bottom: 2px #CFCCFF solid;
+    margin: .5em auto;
+}
+
+#review .name {
+    text-align: center;
+    border: 2px #3CC2FB solid;
+    border-radius: .5em;
+    margin: 1em auto;
+    padding-top: 10px;
+    font-size: medium;
+    width: 30%;
+}
+
+
+
 .contact-grid {
     width: 100%;
     height: auto;
