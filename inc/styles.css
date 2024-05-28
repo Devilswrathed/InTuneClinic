@@ -94,10 +94,9 @@ main {
     .teamGrid{
         width: 80%;
         margin: 1em auto;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        gap: 1.5em;
+        display: grid;
+        grid-template-columns: 30% 70%;
+        gap: 1em;
         height: auto;
     }
 
@@ -106,8 +105,8 @@ main {
         justify-content: center;
         align-items: center;
         border-radius: .5em;
-        height: 100%;
-        width: 28%;
+        height: 95%;
+        width: 95%;
     }
     
        .headShot img {
@@ -118,11 +117,13 @@ main {
 
     .teamGrid .bioInfo {
         display: flex;
+        text-align: center;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         border-radius: .5em;
-        width: 70%;
+        width: 100%;
+        height: 100%;
         
     }
 
@@ -252,7 +253,34 @@ gap: 1em;
     background-color: #9fdffa;
 }
 
-  
+.contact-grid {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .map {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .addressInfo {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .addressInfo .line {
+        width: 50%;
+        border-bottom: 2px #CFCCFF solid;
+        margin: .5em auto;
+    }
+} 
+
 
 /* #3CC2FB
     #CFCCFF
