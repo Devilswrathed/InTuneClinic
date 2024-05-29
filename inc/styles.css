@@ -31,8 +31,6 @@ body {
 }
 
 nav {
-    position: fixed;
-    top: 0;
     width: 100dvw;
     margin: 0 auto .5em auto;
     height: auto;
@@ -75,14 +73,21 @@ nav {
 .logo {
 width: 70dvw;
 height: auto;
-margin: 50px auto;
+margin: 1em auto;
 gap:.5em;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-font-size: 2em;
+font-size: 3vw;
 
+    
+}
+
+.logo img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
 }
 
 main {
@@ -92,12 +97,13 @@ main {
     font-size: 1.3em;
 
     .teamGrid{
-        width: 80%;
+        width: 90%;
         margin: 1em auto;
         display: grid;
         grid-template-columns: 30% 70%;
         gap: 1em;
         height: auto;
+        padding: .5em;
     }
 
     .teamGrid .headShot {
@@ -110,9 +116,9 @@ main {
     }
     
        .headShot img {
-            border-radius: .5em;
-            height: 100%;
-            width: 100%;
+        max-width: 100%;
+        height: auto;
+        border-radius: 0.5em;
         }
 
     .teamGrid .bioInfo {
@@ -133,8 +139,27 @@ main {
         margin: .5em;
     }
     
-    h1, h2 {
+    h1{
         text-align: center;
+        font-size: 3vw;
+    }
+    h2{
+        text-align: center;
+        font-size: 2vw;
+    }
+    h3{
+        text-align: center;
+        font-size: 1.5vw;
+    }
+
+    p {
+        font-size: 1.2vw;
+    }
+
+    .line {
+        width: 90%;
+        border-bottom: 2px #CFCCFF solid;
+        margin: 1em auto;
     }
 }
 
