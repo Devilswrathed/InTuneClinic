@@ -116,7 +116,7 @@ main {
         grid-template-columns: 30% 70%;
         gap: .5em;
         height: auto;
-        padding: 1.2em;
+        padding: 2em;
         background-color: #ffffff;
         border: 2px #3CC2FB solid;
         border-radius: .5em;
