@@ -167,52 +167,7 @@ text-align: center;
     width: 30%;
 }
 
-.contact-grid {
-    width: 100%;
-    height: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1em;
-    margin: 1.5em auto;
 
-
-    .map {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    .map iframe {
-        width: 100%;
-        height: 100%;
-    }
-
-    .addressInfo {
-        width: 80%;
-        height: 100%;
-        text-align: center;
-        margin: 0 auto;
-    } */
-
-    .addressInfo .line {
-        width: 50%;
-        border-bottom: 2px #CFCCFF solid;
-        margin: .5em auto;
-    }
-} 
-
-.contact-grid > div {
-    width: 100%;
-    height: 100%;
-    margin: 1em auto;
-    padding: 10px;
-    border: 2px #3CC2FB solid;
-    border-radius: .5em;
-    background-color: #ffffff;
-}
 
 
 /* Media Queries */
@@ -477,6 +432,58 @@ text-align: center;
     p {
         text-align: center;
     }
+}
+
+.contact-grid {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin: 1.5em auto;
+
+
+    .map {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .map iframe {
+        width: 100%;
+        height: 40dvh;
+    }
+
+    .addressInfo {
+        width: 80%;
+        height: 100%;
+        text-align: center;
+        margin: 0 auto;
+    } 
+
+    .addressInfo .line {
+        width: 50%;
+        border-bottom: 2px #CFCCFF solid;
+        margin: .5em auto;
+    }
+
+    .addressInfo p {
+        font-size: 3vw;
+    }
+} 
+
+.contact-grid > div {
+    width: 100%;
+    height: 100%;
+    margin: 1em auto;
+    padding: 10px;
+    border: 2px #3CC2FB solid;
+    border-radius: .5em;
+    background-color: #ffffff;
 }
 
     footer {
@@ -778,6 +785,53 @@ text-align: center;
     p {
         text-align: center;
     }
+}
+
+.contact-grid {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    margin: 1.5em auto;
+
+
+    .map {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .map iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    .addressInfo {
+        width: 80%;
+        height: 100%;
+        text-align: center;
+        margin: 0 auto;
+    } */
+
+    .addressInfo .line {
+        width: 50%;
+        border-bottom: 2px #CFCCFF solid;
+        margin: .5em auto;
+    }
+} 
+
+.contact-grid > div {
+    width: 100%;
+    height: 100%;
+    margin: 1em auto;
+    padding: 10px;
+    border: 2px #3CC2FB solid;
+    border-radius: .5em;
+    background-color: #ffffff;
 }
 
     footer {
@@ -1112,6 +1166,53 @@ text-align: center;
     p {
         text-align: center;
     }
+}
+
+.contact-grid {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    margin: 1.5em auto;
+
+
+    .map {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .map iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    .addressInfo {
+        width: 80%;
+        height: 100%;
+        text-align: center;
+        margin: 0 auto;
+    } */
+
+    .addressInfo .line {
+        width: 50%;
+        border-bottom: 2px #CFCCFF solid;
+        margin: .5em auto;
+    }
+} 
+
+.contact-grid > div {
+    width: 100%;
+    height: 100%;
+    margin: 1em auto;
+    padding: 10px;
+    border: 2px #3CC2FB solid;
+    border-radius: .5em;
+    background-color: #ffffff;
 }
 
     footer {
