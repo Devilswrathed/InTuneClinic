@@ -76,124 +76,6 @@ text-align: center;
 
 
 }
-
-
-.homepagegrid{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 1em;
-    width: 90%;
-    margin: 1em auto;
-    height: auto;
-    border: 2px #3CC2FB solid;
-    border-radius: .5em;
-    background-color: #ffffff;
-    padding: .5em;
-
-    .homeinfo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-
-    }
-
-
-
-    img {
-        width: 100%;
-    }
-
-    p {
-        text-align: center;
-
-    }
-}
-
-.homepagegrid2{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 1em;
-    width: 90%;
-    margin: 1em auto;
-    height: auto;
-    border: 2px #3CC2FB solid;
-    border-radius: .5em;
-    background-color: #ffffff;
-    padding: .5em;
-
-    .homeinfo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-
-    }
-
-    img {
-        width: 100%;
-    }
-
-    p {
-        text-align: center;
-    }
-}
-
-
-
-/* Slideshow container */
-    .slideshow-container {
-    max-width: 60dvw;
-    position: relative;
-    border-radius: .5em;
-    margin: 10px auto;
-    border: 2px #3CC2FB solid;
-    border-radius: .5em;
-    background-color: #ffffff;
-    padding: .5em;
-
-    .active {
-        background-color: #717171;
-        }
-
-            /* Caption text */
-    .text {
-        color: #f2f2f2;
-        font-size: 15px;
-        padding: 8px 12px;
-        position: absolute;
-        bottom: 8px;
-        width: 100%;
-        text-align: center;
-        }
-    
-    }
-
-    /* Fading animation */
-    .fade {
-    animation: fadeinout 4s ;
-    }
-
-    @keyframes fadeinout {
-
-    0%{
-        opacity: .4;
-    }
-
-}
-
-    .mySlides {
-        display: none;
-        border-radius: .5em;
-    }
-
-    img {
-    vertical-align: middle;
-    border-radius: .5em;
-}
-
-
-
 .rating-box {
     display: flex;
     flex-direction: column;
@@ -485,6 +367,118 @@ text-align: center;
     
     }
 
+    /* Slideshow container */
+    .slideshow-container {
+        max-width: 100dvw;
+        position: relative;
+        border-radius: .5em;
+        margin: 10px auto;
+        padding: .5em;
+    
+        .active {
+            background-color: #717171;
+            }
+    
+                /* Caption text */
+        .text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+            }
+        
+        }
+    
+        /* Fading animation */
+        .fade {
+        animation: fadeinout 4s ;
+        }
+    
+        @keyframes fadeinout {
+    
+        0%{
+            opacity: .4;
+        }
+    
+    }
+    
+        .mySlides {
+            display: none;
+            border-radius: .5em;
+        }
+    
+        img {
+        vertical-align: middle;
+
+    }
+
+    
+.homepagegrid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+    width: 90%;
+    margin: 1em auto;
+    height: auto;
+    border: 2px #3CC2FB solid;
+    border-radius: .5em;
+    background-color: #ffffff;
+    padding: .5em;
+
+    .homeinfo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+
+
+    img {
+        width: 100%;
+    }
+
+    p {
+        text-align: center;
+
+    }
+}
+
+.homepagegrid2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+    width: 90%;
+    margin: 1em auto;
+    height: auto;
+    border: 2px #3CC2FB solid;
+    border-radius: .5em;
+    background-color: #ffffff;
+    padding: .5em;
+
+    .homeinfo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+    img {
+        width: 100%;
+    }
+
+    p {
+        text-align: center;
+    }
+}
+
     footer {
         background-color: #F5F5FF;
         color: #00b9e8;
@@ -676,6 +670,116 @@ text-align: center;
     
     }
 
+    /* Slideshow container */
+    .slideshow-container {
+        max-width: 100dvw;
+        position: relative;
+        border-radius: .5em;
+        margin: 10px auto;
+        padding: .5em;
+    
+        .active {
+            background-color: #717171;
+            }
+    
+                /* Caption text */
+        .text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+            }
+        
+        }
+    
+        /* Fading animation */
+        .fade {
+        animation: fadeinout 4s ;
+        }
+    
+        @keyframes fadeinout {
+    
+        0%{
+            opacity: .4;
+        }
+    
+    }
+    
+        .mySlides {
+            display: none;
+            border-radius: .5em;
+        }
+    
+        img {
+        vertical-align: middle;
+
+    }
+
+    
+.homepagegrid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1em;
+    width: 90%;
+    margin: 1em auto;
+    height: auto;
+    border: 2px #3CC2FB solid;
+    border-radius: .5em;
+    background-color: #ffffff;
+    padding: .5em;
+
+    .homeinfo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+
+
+    img {
+        width: 100%;
+    }
+
+    p {
+        text-align: center;
+
+    }
+}
+
+.homepagegrid2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1em;
+    width: 90%;
+    margin: 1em auto;
+    height: auto;
+    border: 2px #3CC2FB solid;
+    border-radius: .5em;
+    background-color: #ffffff;
+    padding: .5em;
+
+    .homeinfo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+    img {
+        width: 100%;
+    }
+
+    p {
+        text-align: center;
+    }
+}
+
     footer {
         background-color: #F5F5FF;
         color: #00b9e8;
@@ -842,6 +946,10 @@ text-align: center;
         font-size: 2vw;
     }
 
+    .logo {
+        font-size: 2vw;
+    }
+
     
 
     main {
@@ -892,6 +1000,119 @@ text-align: center;
         }
     
     }
+
+    /* Slideshow container */
+    .slideshow-container {
+        max-width: 60dvw;
+        position: relative;
+        border-radius: .5em;
+        margin: 10px auto;
+        padding: .5em;
+    
+        .active {
+            background-color: #717171;
+            }
+    
+                /* Caption text */
+        .text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+            }
+        
+        }
+    
+        /* Fading animation */
+        .fade {
+        animation: fadeinout 4s ;
+        }
+    
+        @keyframes fadeinout {
+    
+        0%{
+            opacity: .4;
+        }
+    
+    }
+    
+        .mySlides {
+            display: none;
+            border-radius: .5em;
+        }
+    
+        img {
+        vertical-align: middle;
+
+    }
+
+
+.homepagegrid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1em;
+    width: 90%;
+    margin: 1em auto;
+    height: auto;
+    border: 2px #3CC2FB solid;
+    border-radius: .5em;
+    background-color: #ffffff;
+    padding: .5em;
+
+    .homeinfo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+
+
+    img {
+        border-radius: .5em;
+        width: 100%;
+    }
+
+    p {
+        text-align: center;
+
+    }
+}
+
+.homepagegrid2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1em;
+    width: 90%;
+    margin: 1em auto;
+    height: auto;
+    border: 2px #3CC2FB solid;
+    border-radius: .5em;
+    background-color: #ffffff;
+    padding: .5em;
+
+    .homeinfo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+    img {
+        border-radius: .5em;
+
+        width: 100%;
+    }
+
+    p {
+        text-align: center;
+    }
+}
 
     footer {
         background-color: #F5F5FF;
