@@ -42,37 +42,7 @@ nav {
     border-bottom: 2px white solid;
     background-color: #F5F5FF;
 
-    ul {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap;
-        width: 80%;
-        height: auto;
-        font-size: 100%;
-        margin: 0 auto;
-    }
 
-    li {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        list-style: none;
-        margin: .5em;
-
-
-    }
-
-    a {
-        font-size: 1.5em;
-        text-decoration: none;
-        transition: all .3s ease-in;
-    }
-    
-    a:hover {
-        transform: scale(1.1);
-        border-bottom: 2px #CFCCFF solid;
-    }
 }
 
 .logo {
@@ -84,6 +54,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+text-align: center;
     
 }
 
@@ -106,95 +77,6 @@ align-items: center;
 
 }
 
-main {
-    margin: .5em auto;
-    width: 90dvw;
-    height: auto;
-
-
-    .teamGrid{
-        width: 90%;
-        margin: 1em auto;
-        display: grid;
-        grid-template-columns: 30% 70%;
-        gap: .5em;
-        height: auto;
-        padding: 2em;
-        background-color: #ffffff;
-        border: 2px #3CC2FB solid;
-        border-radius: .5em;
-        
-    }
-
-    .teamGrid .headShot {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: .5em;
-        height: 95%;
-        width: 95%;
-    }
-    
-       .headShot img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 0.5em;
-        }
-
-    .teamGrid .bioInfo {
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        border-radius: .5em;
-        width: 100%;
-        height: 100%;
-        
-    }
-
-    .bioInfo .line {
-        width: 50%;
-        border-bottom: 2px #CFCCFF solid;
-        margin: .5em;
-    }
-    
-    h1{
-        text-align: center;
-        font-size: 3vw;
-    }
-    h2{
-        text-align: center;
-        font-size: 2vw;
-    }
-    h3{
-        text-align: center;
-        font-size: 1.5vw;
-    }
-
-    p {
-        font-size: 1.2vw;
-    }
-
-    .line {
-        width: 90%;
-        border-bottom: 2px #CFCCFF solid;
-        margin: 1em auto;
-    }
-
-    .tacsline {
-        width: 50%;
-        border-bottom: 2px #CFCCFF solid;
-        margin: .5em auto;
-    }
-
-    .tacInfo {
-        width: 75%;
-        height: auto;
-        margin: 0 auto;
-    }
-
-}
 
 .homepagegrid{
     display: grid;
@@ -211,14 +93,12 @@ main {
     .homeinfo {
         display: flex;
         justify-content: center;
-        align-items: end;
+        align-items: center;
         flex-wrap: wrap;
-        width: 100%;
-        margin: 1em auto;
-        padding: 1em;
-    
-        
+
     }
+
+
 
     img {
         width: 100%;
@@ -245,11 +125,9 @@ main {
     .homeinfo {
         display: flex;
         justify-content: center;
-        align-items: end;
+        align-items: center;
         flex-wrap: wrap;
-        width: 100%;
-        margin: 1em auto;
-        padding: 1em;
+
     }
 
     img {
@@ -314,21 +192,7 @@ main {
     border-radius: .5em;
 }
 
-.socials {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    margin: 1em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1em;
 
- div{
-    height: 5dvh;
- }
-
-}
 
 .rating-box {
     display: flex;
@@ -421,14 +285,13 @@ main {
     width: 30%;
 }
 
-
-
 .contact-grid {
     width: 100%;
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1em;
+    margin: 1.5em auto;
 
 
     .map {
@@ -469,65 +332,421 @@ main {
     background-color: #ffffff;
 }
 
-footer {
-    background-color: #F5F5FF;
-    color: #00b9e8;
-    padding: 20px 0;
-    text-align: center;
-    border-top: 2px solid #CFCCFF;
+
+/* Media Queries */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 575.98px) {
+
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 80%;
+        height: auto;
+        font-size: 100%;
+        margin: 0 auto;
+    }
+
+    li {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        margin: .5em;
+
+    }
+
+    a {
+        font-size: 4vw;
+        text-decoration: none;
+        transition: all .3s ease-in;
+        width: 100%;
+    }
+    
+    a:hover {
+        transform: scale(1.1);
+        border-bottom: 2px #CFCCFF solid;
+    }
+
+    .teamGrid{
+        width: 90%;
+        margin: 1em auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: .5em;
+        height: auto;
+    }
+
+    .teamGrid .headShot {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: .5em;
+        height: 50%;
+        width: 50%;
+    }
+    
+       .headShot img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 0.5em;
+        }
+
+    .teamGrid .bioInfo {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: .5em;
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    .logo a {
+        font-size: 4vw;
+        text-decoration: underline;
+        color: blue;
+    }
+
+    .socials {
+        margin: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+        height: auto;
+
+        div{
+            height: 100%;
+        }
+
+        a{
+            height: 100%;
+        }
+
+        img{
+            width: 50%;
+        }
+    
+    }
+
+    main {
+        margin: .5em auto;
+        width: 90dvw;
+        height: auto;
+    
+    
+        .bioInfo .line {
+            width: 50%;
+            border-bottom: 2px #CFCCFF solid;
+            margin: .5em;
+        }
+        
+        h1{
+            text-align: center;
+            font-size: 5vw;
+        }
+        h2{
+            text-align: center;
+            font-size: 4vw;
+        }
+        h3{
+            text-align: center;
+            font-size: 3.5vw;
+        }
+    
+        p {
+            font-size: 3vw;
+        }
+    
+        .line {
+            width: 90%;
+            border-bottom: 2px #CFCCFF solid;
+            margin: 1em auto;
+        }
+    
+        .tacsline {
+            width: 50%;
+            border-bottom: 2px #CFCCFF solid;
+            margin: .5em auto;
+        }
+    
+        .tacInfo {
+            width: 75%;
+            height: auto;
+            margin: 0 auto;
+        }
+    
+    }
+
+    footer {
+        background-color: #F5F5FF;
+        color: #00b9e8;
+        padding: 20px 0;
+        text-align: center;
+        border-top: 2px solid #CFCCFF;
+    }
+    
+    .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px;
+    }
+    
+    .footer-section {
+        margin: 20px;
+        flex: 1;
+        min-width: 200px;
+    }
+    
+    .footer-section h3 {
+
+        margin-bottom: 10px;
+    }
+    
+
+    
+    .footer-section ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .footer-section ul li {
+        margin-bottom: 10px;
+    }
+    
+    .footer-section a {
+        color: #00b9e8;
+        text-decoration: none;
+    }
+    
+    .footer-section a:hover {
+        text-decoration: underline;
+    }
+    
+    .social-links {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .social-links img {
+        width: 30px;
+        height: 30px;
+    }
 }
 
-.footer-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
 }
 
-.footer-section {
-    margin: 20px;
-    flex: 1;
-    min-width: 200px;
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 1199.98px) {
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 80%;
+        height: auto;
+        font-size: 100%;
+        margin: 0 auto;
+    }
+
+    li {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+        margin: .5em;
+
+
+    }
+
+    a {
+        font-size: 1.5em;
+        text-decoration: none;
+        transition: all .3s ease-in;
+    }
+    
+    a:hover {
+        transform: scale(1.1);
+        border-bottom: 2px #CFCCFF solid;
+    }
+
+    .teamGrid{
+        width: 90%;
+        margin: 1em auto;
+        display: grid;
+        grid-template-columns: 30% 70%;
+        gap: .5em;
+        height: auto;
+        padding: 2em;
+        background-color: #ffffff;
+        border: 2px #3CC2FB solid;
+        border-radius: .5em;
+        
+    }
+
+    .teamGrid .headShot {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: .5em;
+        height: 95%;
+        width: 95%;
+    }
+    
+       .headShot img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 0.5em;
+        }
+
+    .teamGrid .bioInfo {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: .5em;
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    main {
+        margin: .5em auto;
+        width: 90dvw;
+        height: auto;
+    
+    
+        .bioInfo .line {
+            width: 50%;
+            border-bottom: 2px #CFCCFF solid;
+            margin: .5em;
+        }
+        
+        h1{
+            text-align: center;
+            font-size: 3vw;
+        }
+        h2{
+            text-align: center;
+            font-size: 2vw;
+        }
+        h3{
+            text-align: center;
+            font-size: 1.5vw;
+        }
+    
+        p {
+            font-size: 1.2vw;
+        }
+    
+        .line {
+            width: 90%;
+            border-bottom: 2px #CFCCFF solid;
+            margin: 1em auto;
+        }
+    
+        .tacsline {
+            width: 50%;
+            border-bottom: 2px #CFCCFF solid;
+            margin: .5em auto;
+        }
+    
+        .tacInfo {
+            width: 75%;
+            height: auto;
+            margin: 0 auto;
+        }
+    
+    }
+
+    footer {
+        background-color: #F5F5FF;
+        color: #00b9e8;
+        padding: 20px 0;
+        text-align: center;
+        border-top: 2px solid #CFCCFF;
+    }
+    
+    .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px;
+    }
+    
+    .footer-section {
+        margin: 20px;
+        flex: 1;
+        min-width: 200px;
+    }
+    
+    .footer-section h3 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+    
+    .footer-section p,
+    .footer-section ul {
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+    
+    .footer-section ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .footer-section ul li {
+        margin-bottom: 10px;
+    }
+    
+    .footer-section a {
+        color: #00b9e8;
+        text-decoration: none;
+    }
+    
+    .footer-section a:hover {
+        text-decoration: underline;
+    }
+    
+    .social-links {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .social-links img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .socials {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        margin: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    
+     div{
+        height: 5dvh;
+     }
+    
+    }
 }
-
-.footer-section h3 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
-
-.footer-section p,
-.footer-section ul {
-    font-size: 1em;
-    line-height: 1.5em;
-}
-
-.footer-section ul {
-    list-style: none;
-    padding: 0;
-}
-
-.footer-section ul li {
-    margin-bottom: 10px;
-}
-
-.footer-section a {
-    color: #00b9e8;
-    text-decoration: none;
-}
-
-.footer-section a:hover {
-    text-decoration: underline;
-}
-
-.social-links {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
-.social-links img {
-    width: 30px;
-    height: 30px;
-}
-
-
