@@ -169,15 +169,16 @@ text-align: center;
 
 .awardingBodies {
     width: 70%;
-    height: 50px;
+    height: auto;
     margin: .5em auto;
     display: flex;
-    flex-wrap: no-wrap;
-    justify-content: center;
-    gap: .5em;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1em;
 
     img {
-        height: 5vh;
+        height: 5em;
         width: auto;
 
     }
