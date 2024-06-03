@@ -21,8 +21,6 @@
         <title>Intune Clinic - Premier Physiotherapy, Osteopathics, and Sports Massage in Gateshead</title>
         <link rel="stylesheet" href="inc/styles.css">
         <link rel="icon" type="image/x-icon" href="images/InTuneLogo3.png">
-    
-    </head>
 
 <body>
     
@@ -87,22 +85,18 @@
         <form id="review">
         <div class="rating-box">
             <h2>How was your experience?</h2>
-            <div class="stars">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </div>
 
+            <p>Title:</p>
 
+            <input class="name" type="text" id="title" name="title" value="" placeholder="Review Title...">  
 
-            <textarea maxlength="250" required>
+            <p>Review:</p>
 
-            </textarea>
+            <textarea type="text" name="txtarea" placeholder="Leave a review...."></textarea>
 
             <p>Name:</p>
-            <input class="name" type="text" id="name" name="name" value=""><br>
+
+            <input class="name" type="text" id="name" name="name" value="" placeholder="Reviewer Name...">            
 
             <button class="submitForm" type="submit" value="submit"><h3>Submit</h3></button>
           </div>
@@ -116,8 +110,38 @@
 
             <div class="review">
                 <h3>
-                    Review rating
+                    Review Title
                 </h3>
+
+                <h4>Reviewer name</h4>
+
+                <div class="line"></div>
+
+                <p>
+                    Review Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum vel, tenetur ab excepturi ut eius velit repudiandae eligendi necessitatibus aliquid?
+                </p>
+            </div>
+
+            <div class="review">
+                <h3>
+                    Review Title
+                </h3>
+
+                <h4>Reviewer name</h4>
+
+                <div class="line"></div>
+
+                <p>
+                    Review Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum vel, tenetur ab excepturi ut eius velit repudiandae eligendi necessitatibus aliquid?
+                </p>
+            </div>
+
+            <div class="review">
+                <h3>
+                    Review Title
+                </h3>
+
+                <h4>Reviewer name</h4>
 
                 <div class="line"></div>
 
@@ -129,29 +153,6 @@
         </section>
 
     </div>
-
-    <script>
-        // Select all elements with the "i" tag and store them in a NodeList called "stars"
-        const stars = document.querySelectorAll(".stars i");
-
-        // Loop through the "stars" NodeList
-        stars.forEach((star, index1) => {
-
-        // Add an event listener that runs a function when the "click" event is triggered
-        star.addEventListener("click", () => {
-
-            // Loop through the "stars" NodeList Again
-
-            stars.forEach((star, index2) => {
-
-            // Add the "active" class to the clicked star and any stars with a lower index
-            // and remove the "active" class from any stars with a higher index
-
-            index1 >= index2 ? star.classList.add("active") : star.classList.remove("active");
-            });
-        });
-        });
-    </script>
 
     </main>
 
