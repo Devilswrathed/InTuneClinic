@@ -507,6 +507,50 @@ text-align: center;
     background-color: #ffffff;
 }
 
+.priceListArea {
+    width: 90%;
+    margin: 1em auto;
+    height: auto;
+    background-color: #ffffff;
+    border: 2px #3CC2FB solid;
+    border-radius: .5em;
+
+    .line {
+        width: 90%;
+        border-bottom: 2px #CFCCFF solid;
+        margin: .5em auto;
+    }
+    
+}
+
+.priceList{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    height: auto;
+    padding: 1em;
+}
+
+.service {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.price {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
     footer {
         background-color: #F5F5FF;
         color: #00b9e8;
@@ -923,6 +967,50 @@ text-align: center;
     background-color: #ffffff;
 }
 
+.priceListArea {
+    width: 90%;
+    margin: 1em auto;
+    height: auto;
+    background-color: #ffffff;
+    border: 2px #3CC2FB solid;
+    border-radius: .5em;
+
+    .line {
+        width: 90%;
+        border-bottom: 2px #CFCCFF solid;
+        margin: .5em auto;
+    }
+    
+}
+
+.priceList{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    height: auto;
+    padding: 1em;
+}
+
+.service {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.price {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
     footer {
         background-color: #F5F5FF;
         color: #00b9e8;
@@ -1317,6 +1405,50 @@ text-align: center;
     p {
         text-align: center;
     }
+}
+
+.priceListArea {
+    width: 90%;
+    margin: 1em auto;
+    height: auto;
+    background-color: #ffffff;
+    border: 2px #3CC2FB solid;
+    border-radius: .5em;
+
+    .line {
+        width: 90%;
+        border-bottom: 2px #CFCCFF solid;
+        margin: .5em auto;
+    }
+    
+}
+
+.priceList{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    height: auto;
+    padding: 1em;
+}
+
+.service {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.price {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
 }
 
 .contact-grid {
