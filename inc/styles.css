@@ -167,7 +167,21 @@ text-align: center;
     width: 30%;
 }
 
+.awardingBodies {
+    width: 70%;
+    height: 50px;
+    margin: .5em auto;
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: center;
+    gap: .5em;
 
+    img {
+        height: 50px;
+        width: auto;
+
+    }
+}
 
 
 /* Media Queries */
