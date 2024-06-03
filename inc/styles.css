@@ -412,6 +412,8 @@ text-align: center;
 
     img {
         width: 100%;
+        border-top-right-radius: .5em;
+        border-top-left-radius: .5em;
     }
 
     p {
@@ -443,6 +445,9 @@ text-align: center;
 
     img {
         width: 100%;
+        border-bottom-right-radius: .5em;
+        border-bottom-left-radius: .5em;
+        
     }
 
     p {
@@ -829,6 +834,8 @@ text-align: center;
 
     img {
         width: 100%;
+        border-top-left-radius: .5em;
+        border-bottom-left-radius: .5em;
     }
 
     p {
@@ -859,6 +866,9 @@ text-align: center;
 
     img {
         width: 100%;
+        border-top-right-radius: .5em;
+        border-bottom-right-radius: .5em;
+        
     }
 
     p {
