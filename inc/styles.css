@@ -167,22 +167,6 @@ text-align: center;
     width: 30%;
 }
 
-.awardingBodies {
-    width: 70%;
-    height: auto;
-    margin: .5em auto;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 1em;
-
-    img {
-        height: 5em;
-        width: auto;
-
-    }
-}
 
 
 /* Media Queries */
@@ -286,6 +270,23 @@ text-align: center;
             width: 50%;
         }
     
+    }
+
+    .awardingBodies {
+        width: 70%;
+        height: auto;
+        margin: .5em auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    
+        img {
+            height: 5em;
+            width: auto;
+    
+        }
     }
 
     main {
@@ -604,6 +605,8 @@ text-align: center;
     }
 }
 
+
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
 
@@ -686,6 +689,22 @@ text-align: center;
         font-size: 2vw;
     }
 
+    .awardingBodies {
+        width: 70%;
+        height: auto;
+        margin: .5em auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    
+        img {
+            height: 5em;
+            width: auto;
+    
+        }
+    }
     
 
     main {
@@ -1109,6 +1128,23 @@ text-align: center;
         font-size: 2vw;
     }
 
+    .awardingBodies {
+        width: 70%;
+        height: auto;
+        margin: .5em auto;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    
+        img {
+            height: 5em;
+            width: auto;
+    
+        }
+    }
+    
     
 
     main {
