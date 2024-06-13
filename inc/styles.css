@@ -17,8 +17,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video,
-textarea {
+time, mark, audio, textarea {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -77,6 +76,22 @@ text-align: center;
 
 }
 
+.looping-video-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color:#F5F5FF;
+}
+
+
+video {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    clip-path: inset(2px 2px);
+}
 
 
 /* Media Queries */
