@@ -23,7 +23,6 @@ time, mark, audio, textarea {
 	border: 0;
 	box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
-    font-weight: 500;
     color: #00b9e8;
 }
 
@@ -94,6 +93,7 @@ video {
 }
 
 
+
 /* Media Queries */
 
 /* Small devices (landscape phones, 576px and up) */
@@ -108,28 +108,28 @@ video {
         height: auto;
         font-size: 100%;
         margin: 0 auto;
-    }
 
-    li {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        list-style: none;
-        margin: .5em;
+            a {
 
-    }
+                text-decoration: none;
+                transition: all .3s ease-in;
+                width: 100%;
 
-    a {
-        font-size: 4vw;
-        text-decoration: none;
-        transition: all .3s ease-in;
-        width: 100%;
-    }
+                li {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                    list-style: none;
+                    margin: .5em;
+            
+                }
+            }
     
-    a:hover {
-        transform: scale(1.1);
-        border-bottom: 2px #CFCCFF solid;
+        a:hover {
+            transform: scale(1.1);
+            border-bottom: 2px #CFCCFF solid;
+        }
     }
 
     .teamGrid{
@@ -170,7 +170,7 @@ video {
     }
 
     .logo a {
-        font-size: 4vw;
+
         text-decoration: underline;
         color: blue;
     }
@@ -185,14 +185,11 @@ video {
 
         div{
             height: 100%;
+            width: 50%;
         }
 
         a{
             height: 100%;
-        }
-
-        img{
-            width: 50%;
         }
     
     }
@@ -335,6 +332,7 @@ video {
         align-items: center;
         flex-wrap: wrap;
 
+        
     }
 
 
@@ -574,7 +572,7 @@ textarea {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        padding: 20px;
+
     }
     
     .footer-section {
@@ -588,9 +586,8 @@ textarea {
         margin-bottom: 10px;
     }
     
-
-    
     .footer-section ul {
+        display: block;
         list-style: none;
         padding: 0;
     }
@@ -607,6 +604,16 @@ textarea {
     .footer-section a:hover {
         text-decoration: underline;
     }
+
+    .footer-bottom {
+        width: 100%;
+        height: auto;
+    
+        img {
+            width:200px;
+            height: 120px;
+        }
+    }
     
     .social-links {
         display: flex;
@@ -615,8 +622,8 @@ textarea {
     }
     
     .social-links img {
-        width: 30px;
-        height: 30px;
+        width: 50px;
+        height: 50px;
     }
 
     .collapsible {
@@ -667,40 +674,48 @@ textarea {
 
 
 
+
+
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (min-width: 576px) and (max-width: 849.98px) {
 
-    ul {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap;
-        width: 80%;
-        height: auto;
-        font-size: 100%;
-        margin: 0 auto;
+    nav {
+        ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 80%;
+            height: auto;
+            font-size: 100%;
+            margin: 0 auto;
+
+            a {
+                font-size: 2em;
+                text-decoration: none;
+                transition: all .3s ease-in;
+
+                    
+                li {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    list-style: none;
+                    margin: .5em;
+            
+            
+                }
+
+            }
+
+            a:hover {
+                transform: scale(1.1);
+                border-bottom: 2px #CFCCFF solid;
+            }
+        }
     }
 
-    li {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        list-style: none;
-        margin: .5em;
 
-
-    }
-
-    a {
-        font-size: 1.5em;
-        text-decoration: none;
-        transition: all .3s ease-in;
-    }
-    
-    a:hover {
-        transform: scale(1.1);
-        border-bottom: 2px #CFCCFF solid;
-    }
 
     .teamGrid{
         width: 90%;
@@ -743,11 +758,17 @@ textarea {
         
     }
 
-    .logo a {
-        text-decoration: underline;
-        color: blue;
-        font-size: 2vw;
+    .logo {
+        font-size: 1.8vw;
+
+        a {
+            text-decoration: underline;
+            color: blue;
+            font-size: inherit;
+    
+        }
     }
+
 
     .awardingBodies {
         width: 70%;
@@ -793,11 +814,11 @@ textarea {
         }
         
         h4{
-            font-size: 1.2vw;
+            font-size: 1.4vw;
         }
     
         p {
-            font-size: 1.2vw;
+            font-size: 1.4vw;
         }
     
         .line {
@@ -899,7 +920,7 @@ textarea {
 
     p {
         text-align: center;
-
+        
     }
 }
 
@@ -1120,7 +1141,7 @@ textarea {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        padding: 20px;
+
     }
     
     .footer-section {
@@ -1165,8 +1186,8 @@ textarea {
     }
     
     .social-links img {
-        width: 30px;
-        height: 30px;
+        width: 50px;
+        height: 50px;
     }
 
     .socials {
@@ -1179,6 +1200,7 @@ textarea {
 
         div{
             height: 100%;
+            width: 25%;
         }
 
         a{
@@ -1186,7 +1208,17 @@ textarea {
         } 
 
         img{
-            width: 20%;
+            width: 50%;
+        }
+    }
+
+    .footer-bottom {
+        width: 100%;
+        height: auto;
+    
+        img {
+            width:200px;
+            height: 120px;
         }
     }
 
@@ -1238,39 +1270,44 @@ textarea {
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 768px) {
+@media (min-width: 850px) {
 
-    ul {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap;
-        width: 80%;
-        height: auto;
-        font-size: 100%;
-        margin: 0 auto;
-    }
+    nav {
+        ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 80%;
+            height: auto;
+            font-size: 100%;
+            margin: 0 auto;
 
-    li {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        list-style: none;
-        margin: .5em;
+            a {
+                font-size: 2em;
+                text-decoration: none;
+                transition: all .3s ease-in;
 
+                    
+                li {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    list-style: none;
+                    margin: .5em;
+            
+            
+                }
 
-    }
+            }
 
-    a {
-        font-size: 1.5em;
-        text-decoration: none;
-        transition: all .3s ease-in;
+            a:hover {
+                transform: scale(1.1);
+                border-bottom: 2px #CFCCFF solid;
+            }
+        }
     }
     
-    a:hover {
-        transform: scale(1.1);
-        border-bottom: 2px #CFCCFF solid;
-    }
 
     .teamGrid{
         width: 90%;
@@ -1313,14 +1350,16 @@ textarea {
         
     }
 
-    .logo a {
-        text-decoration: underline;
-        color: blue;
-        font-size: 2vw;
-    }
 
     .logo {
-        font-size: 2vw;
+        font-size: 1.8vw;
+
+        a {
+            text-decoration: underline;
+            color: blue;
+            font-size: inherit;
+    
+        }
     }
 
     .awardingBodies {
@@ -1372,7 +1411,7 @@ textarea {
         }
     
         p {
-            font-size: 1.2vw;
+            font-size: 1.4vw;
         }
     
         .line {
@@ -1474,6 +1513,9 @@ textarea {
     p {
         text-align: center;
 
+        a{
+            font-size: 1.4em;
+        }
     }
 }
 
@@ -1505,6 +1547,11 @@ textarea {
 
     p {
         text-align: center;
+
+        
+        a{
+            font-size: 1.4em;
+        }
     }
 }
 
@@ -1687,19 +1734,21 @@ textarea {
         padding: 20px 0;
         text-align: center;
         border-top: 2px solid #CFCCFF;
+        font-weight: 0;
     }
     
     .footer-container {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        padding: 20px;
+        
     }
     
     .footer-section {
         margin: 20px;
         flex: 1;
         min-width: 200px;
+        
     }
     
     .footer-section h3 {
@@ -1709,7 +1758,7 @@ textarea {
     
     .footer-section p,
     .footer-section ul {
-        font-size: 1em;
+        font-size: 1.5vw;
         line-height: 1.5em;
     }
     
@@ -1725,10 +1774,21 @@ textarea {
     .footer-section a {
         color: #00b9e8;
         text-decoration: none;
+
     }
     
     .footer-section a:hover {
         text-decoration: underline;
+    }
+
+    .footer-bottom {
+        width: 100%;
+        height: 150px;
+    
+        img {
+            width:200px;
+            height: 120px;
+        }
     }
     
     .social-links {
@@ -1738,8 +1798,8 @@ textarea {
     }
     
     .social-links img {
-        width: 30px;
-        height: 30px;
+        width: 50px;
+        height: 50px;
     }
 
     .socials {
@@ -1752,6 +1812,7 @@ textarea {
 
         div{
             height: 100%;
+            width: 25%;
         }
 
         a{
@@ -1759,7 +1820,7 @@ textarea {
         } 
 
         img{
-            width: 20%;
+            width: 25%;
         }
     }
 
