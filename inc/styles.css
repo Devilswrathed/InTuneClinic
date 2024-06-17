@@ -58,8 +58,7 @@ text-align: center;
 
 .logo img{
     max-width: 100%;
-    width: 100%;
-    height: auto;
+    min-height:100%;
 }
 
 .tacs {
@@ -79,8 +78,9 @@ text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100%;
+    margin: 1em auto;
+    width: 80%;
+    height: 80%;
     background-color:#F5F5FF;
 }
 
@@ -89,7 +89,7 @@ video {
     width: 100%;
     height: 100%;
     outline: none;
-    clip-path: inset(2px 2px);
+    clip-path: inset(5px 5px);
 }
 
 .Cancellation {
@@ -133,6 +133,7 @@ video {
                     align-items: center;
                     list-style: none;
                     margin: .5em;
+                    font-size: 4vw;
             
                 }
             }
@@ -236,23 +237,23 @@ video {
         
         h1{
             text-align: center;
-            font-size: 5vw;
+            font-size: 7vw;
         }
         h2{
             text-align: center;
-            font-size: 4vw;
+            font-size: 5vw;
         }
         h3{
             text-align: center;
-            font-size: 3.5vw;
+            font-size: 4.5vw;
         }
 
         h4{
-            font-size: 3vw;
+            font-size: 4vw;
         }
     
         p {
-            font-size: 3vw;
+            font-size: 4vw;
         }
     
         .line {
@@ -813,23 +814,23 @@ textarea {
         
         h1{
             text-align: center;
-            font-size: 3vw;
+            font-size: 3.5vw;
         }
         h2{
             text-align: center;
-            font-size: 2vw;
+            font-size: 3vw;
         }
         h3{
             text-align: center;
-            font-size: 1.5vw;
+            font-size: 2.75vw;
         }
         
         h4{
-            font-size: 1.4vw;
+            font-size: 2.5vw;
         }
     
         p {
-            font-size: 1.4vw;
+            font-size: 2.5vw;
         }
     
         .line {
@@ -903,7 +904,7 @@ textarea {
     
 .homepagegrid{
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr;
     gap: 1em;
     width: 90%;
     margin: 1em auto;
@@ -926,7 +927,7 @@ textarea {
     img {
         width: 100%;
         border-top-left-radius: .5em;
-        border-bottom-left-radius: .5em;
+        border-top-right-radius: .5em;
     }
 
     p {
@@ -937,7 +938,7 @@ textarea {
 
 .homepagegrid2{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr;
     gap: 1em;
     width: 90%;
     margin: 1em auto;
@@ -957,7 +958,7 @@ textarea {
 
     img {
         width: 100%;
-        border-top-right-radius: .5em;
+        border-bottom-left-radius: .5em;
         border-bottom-right-radius: .5em;
         
     }
@@ -1146,6 +1147,7 @@ textarea {
         padding: 20px 0;
         text-align: center;
         border-top: 2px solid #CFCCFF;
+        font-size: 2.5vw;
     }
     
     .footer-container {
