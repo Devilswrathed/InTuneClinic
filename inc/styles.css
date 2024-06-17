@@ -92,6 +92,17 @@ video {
     clip-path: inset(2px 2px);
 }
 
+.Cancellation {
+    width: 75%;
+    margin: 1em auto;
+    padding: 1.2em;
+    background-color: #ffffff;
+    border: 2px #3CC2FB solid;
+    border-radius: .5em;;
+    height: auto;
+    padding: 20px;
+
+}
 
 
 /* Media Queries */
@@ -1407,7 +1418,7 @@ textarea {
         }
         
         h4{
-            font-size: 1vw;
+            font-size: 1.4vw;
         }
     
         p {
@@ -1658,8 +1669,6 @@ textarea {
     width: 100%;
     margin: 0 auto;
 }
-
-
 
 textarea {
     border: 2px #3CC2FB solid;
