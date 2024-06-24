@@ -682,10 +682,6 @@ textarea {
     }
 }
 
-
-
-
-
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 576px) and (max-width: 849.98px) {
 
@@ -1334,11 +1330,13 @@ textarea {
 
     .teamGrid .headShot {
         display: flex;
+        text-align: center;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
         border-radius: .5em;
-        height: 95%;
-        width: 95%;
+        width: 100%;
+        height: 100%;
     }
     
        .headShot img {
@@ -1350,12 +1348,12 @@ textarea {
     .teamGrid .bioInfo {
         display: flex;
         text-align: center;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         flex-direction: column;
         border-radius: .5em;
         width: 100%;
-        height: 100%;
+        height: auto;
         
     }
 
@@ -1372,7 +1370,7 @@ textarea {
     }
 
     .awardingBodies {
-        width: 70%;
+        width: 50%;
         height: auto;
         margin: .5em auto;
         display: flex;
@@ -1382,9 +1380,8 @@ textarea {
         gap: 1em;
     
         img {
-            height: 5em;
+            height: 50%;
             width: auto;
-    
         }
     }
     
