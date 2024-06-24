@@ -105,6 +105,7 @@ video {
 }
 
 
+
 /* Media Queries */
 
 /* Small devices (landscape phones, 576px and up) */
@@ -444,6 +445,17 @@ video {
     border: 2px #3CC2FB solid;
     border-radius: .5em;
     background-color: #ffffff;
+}
+
+.openingTimes {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 50%;
+    margin: .5em auto;
+
+    div:nth-child(even){
+        margin-bottom: 1em;
+    }
 }
 
 .priceListArea {
@@ -990,6 +1002,18 @@ textarea {
         margin: .5em auto;
     }
 } 
+
+.openingTimes {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 50%;
+    margin: .5em auto;
+
+    div:nth-child(even){
+        margin-bottom: 1em;
+    }
+}
+
 
 .contact-grid > div {
     width: 100%;
@@ -1629,6 +1653,17 @@ textarea {
     border: 2px #3CC2FB solid;
     border-radius: .5em;
     background-color: #ffffff;
+}
+
+.openingTimes {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 50%;
+    margin: .5em auto;
+
+    div:nth-child(even){
+        margin-bottom: 1em;
+    }
 }
 
 
