@@ -153,15 +153,21 @@ video {
         flex-wrap: wrap;
         gap: .5em;
         height: auto;
+        padding: 2em;
+        background-color: #ffffff;
+        border: 2px #3CC2FB solid;
+        border-radius: .5em;
     }
 
     .teamGrid .headShot {
         display: flex;
         justify-content: center;
         align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
         border-radius: .5em;
         height: 50%;
-        width: 50%;
+        width: 60%;
     }
     
        .headShot img {
@@ -208,21 +214,37 @@ video {
     }
 
     .awardingBodies {
-        width: 70%;
+        width: 100%;
         height: auto;
         margin: .5em auto;
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         justify-content: center;
         align-items: center;
         gap: 1em;
     
         img {
-            height: 5em;
-            width: auto;
+            height: 12vh;
+            width: 100%;
     
         }
     }
+
+    .awardingBodies2 {
+        width: 100%;
+        height: auto;
+        margin: .5em auto;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    
+        img {
+            height: 14vh;
+            width: auto;
+        }
+    }   
 
     main {
         margin: .5em auto;
@@ -721,13 +743,12 @@ textarea {
         }
     }
 
-
-
     .teamGrid{
         width: 90%;
         margin: 1em auto;
-        display: grid;
-        grid-template-columns: 30% 70%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
         gap: .5em;
         height: auto;
         padding: 2em;
@@ -741,9 +762,11 @@ textarea {
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
         border-radius: .5em;
-        height: 95%;
-        width: 95%;
+        height: 50%;
+        width: 50%;
     }
     
        .headShot img {
@@ -764,32 +787,61 @@ textarea {
         
     }
 
-    .logo {
-        font-size: 1.8vw;
+    .logo a {
 
-        a {
-            text-decoration: underline;
-            color: blue;
-            font-size: inherit;
-    
-        }
+        text-decoration: underline;
+        color: blue;
     }
 
+    .socials {
+        margin: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+        height: auto;
+
+        div{
+            height: 100%;
+            width: 50%;
+        }
+
+        a{
+            height: 100%;
+        }
+    
+    }
 
     .awardingBodies {
-        width: 70%;
+        width: 100%;
         height: auto;
         margin: .5em auto;
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         justify-content: center;
         align-items: center;
         gap: 1em;
     
         img {
-            height: 5em;
+            height: 12vh;
             width: auto;
     
+        }
+    }
+
+    .awardingBodies2 {
+        width: 100%;
+        height: auto;
+        margin: .5em auto;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    
+        img {
+            height: 14vh;
+            width: auto;
         }
     }
     
@@ -808,23 +860,23 @@ textarea {
         
         h1{
             text-align: center;
-            font-size: 3.5vw;
+            font-size: 7vw;
         }
         h2{
             text-align: center;
-            font-size: 3vw;
+            font-size: 5vw;
         }
         h3{
             text-align: center;
-            font-size: 2.75vw;
+            font-size: 4.5vw;
         }
-        
+
         h4{
-            font-size: 2.5vw;
+            font-size: 4vw;
         }
     
         p {
-            font-size: 2.5vw;
+            font-size: 4vw;
         }
     
         .line {
@@ -1354,6 +1406,7 @@ textarea {
         border-radius: .5em;
         width: 100%;
         height: auto;
+        padding: 1em;
         
     }
 
@@ -1380,7 +1433,23 @@ textarea {
         gap: 1em;
     
         img {
-            height: 50%;
+            height: 10vh;
+            width: auto;
+        }
+    }
+
+    .awardingBodies2 {
+        width: 100%;
+        height: auto;
+        margin: .5em auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    
+        img {
+            height: 7vh;
             width: auto;
         }
     }
