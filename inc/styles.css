@@ -108,6 +108,37 @@ video {
     color: #1a0cd4;
 }
 
+.review {
+    border-radius: .5em;
+    padding: 20px;
+    text-align: center;
+    
+    a img{
+
+        width: 200px;
+        height: auto;
+
+    }
+
+}
+
+.review .line {
+    width: 80%;
+    border-bottom: 2px #CFCCFF solid;
+    margin: .5em auto;
+}
+
+#review .name {
+    text-align: center;
+    border: 2px #3CC2FB solid;
+    border-radius: .5em;
+    margin: 1em auto;
+    font-size: medium;
+    min-width: 270px;
+    width: 20vw;
+}
+
+
 /* Media Queries */
 
 /* Small devices (landscape phones, 576px and up) */
@@ -565,30 +596,6 @@ textarea {
 
 }
 
-.review {
-    border: 2px #3CC2FB solid;
-    border-radius: .5em;
-    padding: 10px;
-    text-align: center;
-    
-    
-}
-
-.review .line {
-    width: 80%;
-    border-bottom: 2px #CFCCFF solid;
-    margin: .5em auto;
-}
-
-#review .name {
-    text-align: center;
-    border: 2px #3CC2FB solid;
-    border-radius: .5em;
-    margin: 1em auto;
-    font-size: medium;
-    min-width: 270px;
-    width: 20vw;
-}
 
  .submitForm {
     padding: 10px;
@@ -713,6 +720,36 @@ textarea {
         height: auto;
         padding: .5em;
     
+    }
+
+    .review {
+        border-radius: .5em;
+        padding: 20px;
+        text-align: center;
+        
+        a img{
+    
+            width: 200px;
+            height: auto;
+    
+        }
+    
+    }
+    
+    .review .line {
+        width: 80%;
+        border-bottom: 2px #CFCCFF solid;
+        margin: .5em auto;
+    }
+    
+    #review .name {
+        text-align: center;
+        border: 2px #3CC2FB solid;
+        border-radius: .5em;
+        margin: 1em auto;
+        font-size: medium;
+        min-width: 270px;
+        width: 20vw;
     }
 }
 
@@ -1150,60 +1187,6 @@ textarea {
     padding: 10px;
 }
 
-.reviews-area {
-    margin: 1em auto;
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 1em;
-    background: #fff;
-    padding: 25px 50px 35px;
-    border-radius: 25px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
-
-}
-
-.review {
-    border: 2px #3CC2FB solid;
-    border-radius: .5em;
-    padding: 10px;
-    text-align: center;
-    width: 48%;
-    
-}
-
-.review .line {
-    width: 80%;
-    border-bottom: 2px #CFCCFF solid;
-    margin: .5em auto;
-}
-
-#review .name {
-    text-align: center;
-    border: 2px #3CC2FB solid;
-    border-radius: .5em;
-    margin: 1em auto;
-    font-size: medium;
-    min-width: 270px;
-    width: 20vw;
-}
-
- .submitForm {
-    padding: 10px;
-    color: #3CC2FB;
-    text-decoration: solid;
-    background-color: #e6e6e6;
-    border-radius: .5em;
-    border: 2px #3CC2FB solid;
- }
-
- .submitForm:hover {
-    cursor: pointer;
-    background-color: #9fdffa;
-}
 
     footer {
         background-color: #F5F5FF;
@@ -1343,8 +1326,40 @@ textarea {
         padding: .5em;
     
     }
+
+    .review {
+        border-radius: .5em;
+        padding: 20px;
+        text-align: center;
+        
+        a img{
+    
+            width: 200px;
+            height: auto;
+    
+        }
+    
+    }
+    
+    .review .line {
+        width: 80%;
+        border-bottom: 2px #CFCCFF solid;
+        margin: .5em auto;
+    }
+    
+    #review .name {
+        text-align: center;
+        border: 2px #3CC2FB solid;
+        border-radius: .5em;
+        margin: 1em auto;
+        font-size: medium;
+        min-width: 270px;
+        width: 20vw;
+    }
     
 }
+
+
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 850px) {
@@ -1764,61 +1779,6 @@ textarea {
     padding: 10px;
 }
 
-.reviews-area {
-    margin: 1em auto;
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 1em;
-    background: #fff;
-    padding: 25px 50px 35px;
-    border-radius: 25px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
-
-}
-
-.review {
-    border: 2px #3CC2FB solid;
-    border-radius: .5em;
-    padding: 10px;
-    text-align: center;
-    width: 30%;    
-    
-}
-
-.review .line {
-    width: 80%;
-    border-bottom: 2px #CFCCFF solid;
-    margin: .5em auto;
-}
-
-#review .name {
-    text-align: center;
-    border: 2px #3CC2FB solid;
-    border-radius: .5em;
-    margin: 1em auto;
-    font-size: medium;
-    min-width: 270px;
-    width: 20vw;
-}
-
- .submitForm {
-    padding: 10px;
-    color: #3CC2FB;
-    text-decoration: solid;
-    background-color: #e6e6e6;
-    border-radius: .5em;
-    border: 2px #3CC2FB solid;
- }
-
- .submitForm:hover {
-    cursor: pointer;
-    background-color: #9fdffa;
-}
-
     footer {
         background-color: #F5F5FF;
         color: #00b9e8;
@@ -1958,6 +1918,36 @@ textarea {
         height: auto;
         padding: .5em;
     
+    }
+
+    .review {
+        border-radius: .5em;
+        padding: 20px;
+        text-align: center;
+        
+        a img{
+    
+            width: 200px;
+            height: auto;
+    
+        }
+    
+    }
+    
+    .review .line {
+        width: 80%;
+        border-bottom: 2px #CFCCFF solid;
+        margin: .5em auto;
+    }
+    
+    #review .name {
+        text-align: center;
+        border: 2px #3CC2FB solid;
+        border-radius: .5em;
+        margin: 1em auto;
+        font-size: medium;
+        min-width: 270px;
+        width: 20vw;
     }
     
 }
